@@ -1,0 +1,1936 @@
+{
+  "groovy_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "solidity": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "stata_block": {
+    "commentstring": "/* %s */\\n "
+  },
+  "lisp": {
+    "commentstring": "; %s"
+  },
+  "terraform": {
+    "commentstring": "# %s"
+  },
+  "remind": {
+    "commentstring": "# %s",
+    "commentstring_rx": "\\[;#] %s"
+  },
+  "typescript.tsx_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "jasmine": {
+    "commentstring": "# %s"
+  },
+  "javascript_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "cucumber": {
+    "commentstring": "# %s"
+  },
+  "msidl": {
+    "commentstring": "// %s"
+  },
+  "igorpro": {
+    "commentstring": "// %s"
+  },
+  "cypher": {
+    "commentstring": "// %s"
+  },
+  "named_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "gitignore": {
+    "commentstring": "# %s"
+  },
+  "catalog_block": {
+    "commentstring": "--%s--\n  "
+  },
+  "readline": {
+    "commentstring": "# %s"
+  },
+  "desktop": {
+    "commentstring": "# %s"
+  },
+  "meson": {
+    "commentstring": "# %s"
+  },
+  "solidity_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "nix_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "verilog_systemverilog_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "fish": {
+    "commentstring": "# %s"
+  },
+  "javascript_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "snakemake": {
+    "commentstring": "# %s"
+  },
+  "debsources": {
+    "commentstring": "# %s"
+  },
+  "c": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "applescript_block": {
+    "commentstring": "(*%s*)\n"
+  },
+  "vhdl": {
+    "commentstring": "-- %s"
+  },
+  "php": {
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(//\\|#\\) %s"
+  },
+  "haml": {
+    "commentstring": "-# %s"
+  },
+  "r": {
+    "commentstring": "# %s"
+  },
+  "matlab_block": {
+    "commentstring": "%%{%s%%}"
+  },
+  "php_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "javascriptreact": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "r_doc": {
+    "commentstring": "#' %s"
+  },
+  "qml_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "docbk_block": {
+    "commentstring": "<!--%s-->\n  ",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "scala_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "squid": {
+    "commentstring": "# %s"
+  },
+  "php_2_block": {
+    "rxmid": "\\*\\+",
+    "rxend": "\\*\\+",
+    "middle": " * ",
+    "commentstring": "/**%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "nginx": {
+    "commentstring": "# %s"
+  },
+  "octave": {
+    "commentstring": "%% %s"
+  },
+  "po": {
+    "commentstring": "# %s"
+  },
+  "css_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "proto": {
+    "commentstring": "// %s"
+  },
+  "websec": {
+    "commentstring": "# %s"
+  },
+  "named": {
+    "commentstring": "# %s"
+  },
+  "dosbatch": {
+    "commentstring": "rem %s"
+  },
+  "cdl": {
+    "commentstring": "// %s"
+  },
+  "racket_block": {
+    "commentstring": "#|%s|#"
+  },
+  "viki_3": {
+    "commentstring": "%%%%%% %s"
+  },
+  "liquid_block": {
+    "commentstring": "<!--%s-->\n  ",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "ocaml": {
+    "commentstring": "(* %s *)"
+  },
+  "erlang": {
+    "commentstring": "%%%% %s"
+  },
+  "typescriptreact": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "blade_block": {
+    "commentstring": "{{--%s--}}"
+  },
+  "tup": {
+    "commentstring": "# %s"
+  },
+  "cpp_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "swift": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "sgml": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "go_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "dot": {
+    "commentstring": "// %s"
+  },
+  "ada": {
+    "commentstring": "-- %s"
+  },
+  "javascriptreact_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "go": {
+    "commentstring": "// %s"
+  },
+  "debcontrol": {
+    "commentstring": "# %s"
+  },
+  "nim": {
+    "commentstring": "# %s"
+  },
+  "clojure_inline": {
+    "commentstring": "; %s"
+  },
+  "maude": {
+    "commentstring": "--- %s"
+  },
+  "scala": {
+    "commentstring": "// %s"
+  },
+  "nix": {
+    "commentstring": "# %s"
+  },
+  "clojure": {
+    "commentstring": "; %s",
+    "count": 2
+  },
+  "typoscript": {
+    "commentstring": "# %s"
+  },
+  "java": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "javascript": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "samba": {
+    "commentstring": "# %s"
+  },
+  "autohotkey": {
+    "commentstring": "; %s"
+  },
+  "scss": {
+    "commentstring": "// %s"
+  },
+  "cmake": {
+    "commentstring": "# %s"
+  },
+  "markdown.pandoc_block": {
+    "commentstring": "<!---%s--->\n  "
+  },
+  "bindzone": {
+    "commentstring": "; %s"
+  },
+  "esmtprc": {
+    "commentstring": "# %s"
+  },
+  "purescript": {
+    "commentstring": "-- %s"
+  },
+  "docbk_inline": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "typescript_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "rc": {
+    "commentstring": "// %s"
+  },
+  "cfg": {
+    "commentstring": "# %s"
+  },
+  "smarty": {
+    "commentstring": "{* %s *}"
+  },
+  "xs_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "taskrc": {
+    "commentstring": "# %s"
+  },
+  "scheme": {
+    "commentstring": "; %s"
+  },
+  "vimwiki": {
+    "commentstring": "%%%% %s"
+  },
+  "viki_inline": {
+    "commentstring": "{cmt: %s}"
+  },
+  "pug": {
+    "commentstring": "//- %s"
+  },
+  "hy": {
+    "commentstring": "; %s"
+  },
+  "crontab": {
+    "commentstring": "# %s"
+  },
+  "fstab": {
+    "commentstring": "# %s"
+  },
+  "html": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "sls": {
+    "commentstring": "# %s"
+  },
+  "cpp": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "puppet": {
+    "commentstring": "# %s"
+  },
+  "blade": {
+    "commentstring": "{{-- %s --}}"
+  },
+  "gtkrc": {
+    "commentstring": "# %s"
+  },
+  "fasm": {
+    "commentstring": "; %s"
+  },
+  "ocaml_block": {
+    "commentstring": "(*%s*)\n   "
+  },
+  "pac": {
+    "commentstring": "// %s"
+  },
+  "sbt": {
+    "commentstring": "// %s"
+  },
+  "blade_inline": {
+    "commentstring": "{{-- %s --}}"
+  },
+  "pascal_inline": {
+    "commentstring": "(* %s *)"
+  },
+  "vader": {
+    "col": 1,
+    "commentstring": "\" %s"
+  },
+  "toml": {
+    "commentstring": "# %s"
+  },
+  "swift_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "typescriptreact_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "jsx": {
+    "commentstring": "{/* %s */}",
+    "commentstring_rx": "\\%%(// %s\\|{/* %s */}\\)"
+  },
+  "spec": {
+    "commentstring": "# %s"
+  },
+  "gomod": {
+    "commentstring": "// %s"
+  },
+  "typescript.tsx_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "tcl": {
+    "commentstring": "# %s"
+  },
+  "typescriptreact_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "tsx_inline": {
+    "commentstring": "{/* %s */}"
+  },
+  "scala_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "stata": {
+    "commentstring": "// %s"
+  },
+  "sh": {
+    "commentstring": "# %s"
+  },
+  "sbs": {
+    "commentstring": "' %s"
+  },
+  "purescript_block": {
+    "commentstring": "{-%s-}\n   "
+  },
+  "st": {
+    "commentstring": "\" %s \""
+  },
+  "stylus_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "io": {
+    "commentstring": "// %s"
+  },
+  "yaml": {
+    "commentstring": "# %s"
+  },
+  "xslt_inline": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "objcpp": {
+    "commentstring": "// %s"
+  },
+  "mail": {
+    "commentstring": "> %s"
+  },
+  "java_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "elixir": {
+    "commentstring": "# %s"
+  },
+  "prolog": {
+    "commentstring": "%% %s"
+  },
+  "html_inline": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "liquid": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "ruby_nodoc_block": {
+    "commentstring": "=begin%s=end"
+  },
+  "markdown_block": {
+    "commentstring": "<!--%s-->\n  "
+  },
+  "jsx_inline": {
+    "commentstring": "{/* %s */}"
+  },
+  "dosini": {
+    "commentstring": "; %s"
+  },
+  "cram": {
+    "col": 1,
+    "commentstring": "# %s"
+  },
+  "fsharp": {
+    "commentstring": "// %s"
+  },
+  "qmake": {
+    "commentstring": "# %s"
+  },
+  "expect": {
+    "commentstring": "# %s"
+  },
+  "jade": {
+    "commentstring": "// %s"
+  },
+  "lua": {
+    "commentstring": "-- %s"
+  },
+  "haskell_inline": {
+    "commentstring": "{- %s -}"
+  },
+  "resolv": {
+    "commentstring": "# %s"
+  },
+  "verilog_systemverilog": {
+    "commentstring": "// %s"
+  },
+  "haskell": {
+    "commentstring": "-- %s"
+  },
+  "julia_block": {
+    "commentstring": "#=%s=#\n   "
+  },
+  "verilog_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "qml": {
+    "commentstring": "// %s"
+  },
+  "docbk": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "typescript_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "robots": {
+    "commentstring": "# %s"
+  },
+  "jq": {
+    "commentstring": "# %s"
+  },
+  "msidl_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "form": {
+    "col": 1,
+    "commentstring": "* %s"
+  },
+  "stylus_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "typescript": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "java_doc_block": {
+    "rxmid": "\\*\\+",
+    "rxend": "\\*\\+",
+    "middle": " * ",
+    "commentstring": "/**%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "jsx_block": {
+    "commentstring": "{/* %s */}"
+  },
+  "gitconfig": {
+    "commentstring": "# %s"
+  },
+  "ruby_block": {
+    "commentstring": "=begin rdoc%s=end"
+  },
+  "objc_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "verilog_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "racket": {
+    "commentstring": "; %s"
+  },
+  "noweb": {
+    "commentstring": "%% %s"
+  },
+  "cs_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "xml_block": {
+    "commentstring": "<!--%s-->\n  ",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "groovy_doc_block": {
+    "rxmid": "\\*\\+",
+    "rxend": "\\*\\+",
+    "middle": " * ",
+    "commentstring": "/**%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "context": {
+    "commentstring": "%% %s"
+  },
+  "dustjs": {
+    "commentstring": "{! %s !}"
+  },
+  "vim_3": {
+    "commentstring": "\"\"\" %s"
+  },
+  "dsl": {
+    "commentstring": "; %s"
+  },
+  "c_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "php_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "lilypond": {
+    "commentstring": "%% %s"
+  },
+  "rust_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "htmldjango_block": {
+    "commentstring": "{%% comment %%}%s{%% endcomment %%}\n "
+  },
+  "javascriptreact_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "matlab": {
+    "commentstring": "%% %s"
+  },
+  "tex": {
+    "commentstring": "%% %s"
+  },
+  "make": {
+    "commentstring": "# %s"
+  },
+  "dnsmasq": {
+    "commentstring": "# %s"
+  },
+  "perl": {
+    "commentstring": "# %s"
+  },
+  "go_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "sps": {
+    "commentstring": "/* %s */"
+  },
+  "robot": {
+    "col": 1,
+    "commentstring": "# %s"
+  },
+  "sed": {
+    "commentstring": "# %s"
+  },
+  "cuda": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "sshdconfig": {
+    "commentstring": "# %s"
+  },
+  "css": {
+    "commentstring": "/* %s */"
+  },
+  "scss_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "css_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "sbt_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "pfmain": {
+    "commentstring": "# %s"
+  },
+  "jproperties": {
+    "commentstring": "# %s"
+  },
+  "xml": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "coffee": {
+    "commentstring": "# %s"
+  },
+  "bib": {
+    "choose": [{
+      "if": "getline('.') =~? '^\\s*@'",
+      "commentstring": "@Comment{%s}"
+    }, {
+      "commentstring": "%% %s"
+    }]
+  },
+  "julia": {
+    "commentstring": "# %s"
+  },
+  "forth": {
+    "commentstring": "\\ %s"
+  },
+  "lua_inline": {
+    "commentstring": "--[[%s --]]"
+  },
+  "html_block": {
+    "commentstring": "<!--%s-->\n  ",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "cs_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "scheme_block": {
+    "commentstring": "#|%s|#"
+  },
+  "tpl": {
+    "commentstring": "<!-- %s -->"
+  },
+  "sgml_inline": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "markdown.pandoc": {
+    "commentstring": "<!--- %s --->"
+  },
+  "viki": {
+    "commentstring": "%% %s"
+  },
+  "stylus": {
+    "commentstring": "// %s"
+  },
+  "asm": {
+    "commentstring": "; %s"
+  },
+  "gnuplot": {
+    "commentstring": "# %s"
+  },
+  "c_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "tsx_block": {
+    "commentstring": "{/* %s */}"
+  },
+  "haskell_block": {
+    "commentstring": "{-%s-}\n   "
+  },
+  "lua_block": {
+    "commentstring": "--[[%s--]]\n"
+  },
+  "applescript_inline": {
+    "commentstring": "# %s"
+  },
+  "xslt": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "htmldjango": {
+    "commentstring": "{# %s #}"
+  },
+  "nroff": {
+    "commentstring": ".\\\" %s"
+  },
+  "m4": {
+    "commentstring": "dnl %s"
+  },
+  "agda_inline": {
+    "commentstring": "{- %s -}"
+  },
+  "apache": {
+    "commentstring": "# %s"
+  },
+  "scss_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "x86conf": {
+    "commentstring": "# %s"
+  },
+  "tsx": {
+    "commentstring": "{/* %s */}"
+  },
+  "groovy_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "spss": {
+    "commentstring": "/* %s */"
+  },
+  "solidity_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "eruby": {
+    "commentstring": "<%%# %s"
+  },
+  "objc": {
+    "commentstring": "/* %s */"
+  },
+  "ruby": {
+    "commentstring": "# %s"
+  },
+  "verilog": {
+    "commentstring": "// %s"
+  },
+  "eiffel": {
+    "commentstring": "-- %s"
+  },
+  "gitcommit": {
+    "commentstring": "# %s"
+  },
+  "conkyrc": {
+    "commentstring": "# %s"
+  },
+  "cabal": {
+    "commentstring": "-- %s"
+  },
+  "clojurescript": {
+    "commentstring": ";; %s"
+  },
+  "ocaml_inline": {
+    "commentstring": "(* %s *)"
+  },
+  "sbt_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "sql": {
+    "commentstring": "-- %s"
+  },
+  "chromemanifest": {
+    "commentstring": "# %s"
+  },
+  "cs": {
+    "commentstring": "// %s"
+  },
+  "xml_inline": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "objc_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "dylan": {
+    "commentstring": "// %s"
+  },
+  "swift_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "cpp_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "conf": {
+    "commentstring": "# %s"
+  },
+  "upstart": {
+    "commentstring": "# %s"
+  },
+  "python": {
+    "commentstring": "# %s"
+  },
+  "jinja": {
+    "commentstring": "{# %s #}"
+  },
+  "agda": {
+    "commentstring": "-- %s"
+  },
+  "verilog_systemverilog_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "pascal": {
+    "commentstring": "(* %s *)"
+  },
+  "elm": {
+    "commentstring": "-- %s"
+  },
+  "lynx": {
+    "commentstring": "# %s"
+  },
+  "rust_inline": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "purescript_inline": {
+    "commentstring": "{- %s -}"
+  },
+  "pascal_block": {
+    "commentstring": "(*%s*)\n   "
+  },
+  "catalog": {
+    "commentstring": "-- %s --"
+  },
+  "liquid_inline": {
+    "commentstring": "<!-- %s -->",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "agda_block": {
+    "commentstring": "{-%s-}\n   "
+  },
+  "asterisk": {
+    "commentstring": "; %s"
+  },
+  "asciidoc": {
+    "commentstring": "// %s"
+  },
+  "xs": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "/* %s */",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "ini": {
+    "commentstring": "; %s"
+  },
+  "nsis": {
+    "commentstring": "# %s"
+  },
+  "markdown": {
+    "commentstring": "<!-- %s -->"
+  },
+  "java_block": {
+    "rxmid": "",
+    "rxend": "",
+    "middle": " * ",
+    "commentstring": "/*%s */",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "xslt_block": {
+    "commentstring": "<!--%s-->\n  ",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "ruby_3": {
+    "commentstring": "### %s"
+  },
+  "applescript": {
+    "commentstring": "(* %s *)"
+  },
+  "htmljinja": {
+    "commentstring": "{# %s #}"
+  },
+  "vim": {
+    "choose": [{
+      "if": "search('^\\s*vim9script\\s*$', \"bcnW\") ||getline(search('^\\s*\\%(fu\\%[nction]\\|def\\)\\>', 'bcnWz')) =~# '^\\s*def\\>' && search('^\\s*def\\>', 'bcnWz') < line(\"'[\")",
+      "commentstring": "# %s"
+    }, {
+      "commentstring": "\" %s"
+    }],
+    "commentstring_rx": "\\[\"#] %s"
+  },
+  "perl_block": {
+    "commentstring": "=cut%s=cut"
+  },
+  "sshconfig": {
+    "commentstring": "# %s"
+  },
+  "octave_block": {
+    "commentstring": "%%{%s%%}"
+  },
+  "monkey": {
+    "commentstring": "' %s"
+  },
+  "rust": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(///\\? %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "slim": {
+    "commentstring": "/%s"
+  },
+  "aap": {
+    "commentstring": "# %s"
+  },
+  "sgml_block": {
+    "commentstring": "<!--%s-->\n  ",
+    "replacements": {
+      "<!--": "&#60;&#33;&#45;&#45;",
+      "-->": "&#45;&#45;&#62;",
+      "&": "&#38;"
+    }
+  },
+  "groovy": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  },
+  "clojurescript_inline": {
+    "commentstring": "; %s"
+  },
+  "typescript.tsx": {
+    "rxmid": "",
+    "rxend": "",
+    "commentstring": "// %s",
+    "commentstring_rx": "\\%%(// %s\\|/* %s */\\)",
+    "replacements": {
+      "*/": {
+        "subst": "|)}>#",
+        "guard_rx": "^\\s*/\\?\\*"
+      },
+      "/*": {
+        "subst": "#<{(|",
+        "guard_rx": "^\\s*/\\?\\*"
+      }
+    },
+    "rxbeg": "\\*\\+"
+  }
+}
